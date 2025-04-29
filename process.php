@@ -9,7 +9,7 @@ if ($_POST['username'] === $correct_username && $_POST['password'] === $correct_
     header("Location: welcome.php");
     exit();
 } else {
-    echo "invalid login". <a href="login.php">Try again</a>;
+    echo "invalid login <a href='login.php'>Try again</a>";
     exit();
 }
 ?>
