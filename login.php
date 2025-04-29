@@ -3,10 +3,10 @@
 <form action="process.php" method="POST">
   <!-- username field -->
   <label for="username">Username:</label>
-  <input type="text" name="username" required><br>
+  <input type="text" id="username" name="username" required><br>
   <!-- Password field -->
   <label for="password">Password:</label>
-  <input type="password" name="password" required><br>
+  <input type="password" id="password" name="password" required><br>
 
   <!-- hidden field -->
   <input type="hidden" name="token" value="abc123">
