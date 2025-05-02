@@ -1,5 +1,5 @@
 <?php include 'header.inc'; ?>
-
+<h>1>Login Page</h1>
 <form action="process.php" method="POST">
   <!-- username field -->
   <label for="username">Username:</label>
